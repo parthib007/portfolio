@@ -15,14 +15,15 @@
         <div class="container">
             <nav>
                 <img src="images/logo.png" alt="my_logo" class="logo">
-                <ul>
+                <ul id="sidemenu">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact_me">Contact Me</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
                 </ul>
-
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
                 <p>Mechanical Engineer</p>
@@ -158,15 +159,15 @@
                     <p><i class="fa-solid fa-envelope"></i>parthibdas007@gmail.com</p>
                     <p><i class="fa-solid fa-square-phone"></i>9474636841</p>
                     <div class="social-icons">
-                        <a href=""><i class="fa-brands fa-github"></i></a>
-                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                        <a href=""><i class="fa-brands fa-instagram"></i></a>
-                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://github.com/parthib007" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/parthib-das-4648ba231/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/007parthib_das/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100009658311027" target="_blank"><i class="fa-brands fa-facebook"></i></a>
                     </div>
                     <a href="images/CV.pdf" download class="btn btn2">Download CV</a>
                 </div>
                 <div class="contact-right">
-                    <form>
+                    <form name="submit-to-google-sheet">
                         <input type="text" name="Name" placeholder="Your Name" required>
                         <input type="email" name="email" placeholder="Your Email" required>
                         <textarea name="Message" rows="6" placeholder="Your message"></textarea>
